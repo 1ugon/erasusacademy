@@ -31,7 +31,7 @@
 }
 
 .containerHeader .bush {
-  max-height: 10vh;
+  height: 10vh;
 }
 
 .containerHeader h1,
@@ -61,4 +61,31 @@ p {
 }
 
 @media (max-width: 1080px) {
+  .containerHeader {
+    padding-top: 0;
+    height: 40vh;
+  }
+
+  .containerHeader .mainText {
+    flex-direction: column;
+  }
+
+  .containerHeader .header {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .containerHeader .headerImg {
+    padding-top: 2vh;
+    padding-right: 0;
+    height: 25vh;
+  }
+
+  .containerHeader .text {
+    padding-left: 0;
+  }
+
+  .containerHeader .bush {
+    display: none;
+  }
 }

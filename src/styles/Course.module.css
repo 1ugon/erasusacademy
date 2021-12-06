@@ -1,24 +1,36 @@
 .containerCourse {
   background-color: var(--white);
-  height: 60vh;
   padding-top: 2vh;
+  padding-bottom: 2vh;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 
-.containerCourse h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+.containerCourse .text {
   color: black;
 }
 
 .containerCourse .experience {
   padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.containerCourse p {
+  font-size: 2vh;
+}
+
+.containerCourse .videoContainer {
+  margin-top: 3vh;
+}
+
+.containerCourse .videoContainer .text {
+  margin-bottom: 2vh;
+}
+
+.containerCourse .video {
+  width: 50vw;
+  height: 35vh;
 }
 
 .containerCourse .row {

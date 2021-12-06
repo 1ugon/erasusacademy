@@ -12,18 +12,6 @@ function Navbar() {
           <li>
             <Link
               activeClass="active"
-              to="Home"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              INÍCIO
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
               to="Course"
               spy={true}
               smooth={true}
