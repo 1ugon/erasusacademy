@@ -1,0 +1,33 @@
+.containerCourse {
+  background-color: var(--white);
+  height: 60vh;
+  padding-top: 2vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerCourse h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: black;
+}
+
+.containerCourse .experience {
+  padding-top: 2vh;
+}
+
+.containerCourse .row {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.containerCourse .teamLogo {
+  height: 15vh;
+}

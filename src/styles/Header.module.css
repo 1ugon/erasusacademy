@@ -1,0 +1,64 @@
+.containerHeader {
+  padding-top: 8vh;
+  width: 100%;
+  height: 35vh;
+  background-color: var(--black);
+}
+
+.containerHeader .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.containerHeader .text {
+  align-items: center;
+  justify-content: center;
+  padding-left: 20vw;
+}
+
+.containerHeader .mainText {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.containerHeader .headerImg {
+  border-radius: 50%;
+  padding-right: 2vh;
+  height: 25vh;
+}
+
+.containerHeader .bush {
+  max-height: 10vh;
+}
+
+.containerHeader h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--white);
+  text-align: center;
+}
+
+.containerHeader h1 {
+  font-size: 6vh;
+}
+
+.containerHeader h3 {
+  font-size: 2.5vh;
+  padding-top: 1.5vh;
+  font-weight: normal;
+}
+
+.containerHeader h5 {
+  font-size: 1.5vh;
+  font-weight: normal;
+}
+
+@media (max-width: 1080px) {
+}

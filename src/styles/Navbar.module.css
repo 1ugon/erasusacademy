@@ -1,0 +1,38 @@
+.containerNav {
+  width: 100%;
+  height: 8vh;
+  background-color: var(--black);
+  padding: 2vh 0;
+  position: fixed;
+}
+
+.containerNav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5vw;
+  font-size: 2vh;
+}
+
+.containerNav li {
+  list-style: none;
+}
+
+.containerNav a {
+  color: var(--white);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.containerNav a:hover {
+  color: var(--grey);
+  transition: 0.2s;
+}
+
+@media (max-width: 1080px) {
+  .containerNav {
+    display: none;
+  }
+}
