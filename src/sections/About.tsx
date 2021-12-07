@@ -24,16 +24,16 @@ function About() {
         cubilia curae.
       </p>
       <div className={styles.socialMedia}>
-        <a href="#">
+        <a href="/">
           <FontAwesomeIcon icon={faYoutube} size="4x" />
         </a>
-        <a href="#">
+        <a href="/">
           <FontAwesomeIcon icon={faFacebook} size="4x" />
         </a>
-        <a href="#">
+        <a href="/">
           <FontAwesomeIcon icon={faTwitter} size="4x" />
         </a>
-        <a href="#">
+        <a href="/">
           <FontAwesomeIcon icon={faInstagram} size="4x" />
         </a>
       </div>
