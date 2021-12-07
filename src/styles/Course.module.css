@@ -31,6 +31,7 @@
 .containerCourse .video {
   width: 50vw;
   height: 35vh;
+  margin-bottom: 2vh;
 }
 
 .containerCourse .row {
@@ -38,6 +39,7 @@
   text-align: center;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 20vw;
 }
 
 .containerCourse .teamLogo {

@@ -1,0 +1,22 @@
+.containerBenefitsCard {
+  padding-top: 25px;
+}
+
+.containerBenefitsCard .title {
+  font-size: 20px;
+}
+
+.containerBenefitsCard .benefitsImage {
+  height: 7.5vh;
+}
+
+.containerBenefitsCard .featImage {
+  height: 15vh;
+  padding: 0.5vh;
+  background-color: var(--blue);
+}
+
+.containerBenefitsCard .featText {
+  color: var(--black);
+  font-weight: normal;
+}

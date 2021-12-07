@@ -1,0 +1,29 @@
+.containerAbout {
+  background-color: var(--white);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.containerAbout .title,
+.text {
+  color: var(--black);
+}
+
+.containerAbout .socialMedia {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2vh;
+  padding: 25px 50px;
+}
+
+.containerAbout .socialMedia a {
+  color: var(--blue);
+  margin: 0 10px;
+}

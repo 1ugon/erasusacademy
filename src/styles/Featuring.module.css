@@ -1,0 +1,21 @@
+.containerFeaturing {
+  background-color: var(--white);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerFeaturing .title {
+  color: var(--black);
+}
+
+.containerFeaturing .containerFeaturingCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 0 20vw;
+  margin-bottom: 2vh;
+}

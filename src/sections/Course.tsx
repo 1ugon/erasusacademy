@@ -21,6 +21,18 @@ function Course() {
             alt="CNB"
             title="CNB"
           />
+          <img
+            src={cnbLogo}
+            className={styles.teamLogo}
+            alt="CNB"
+            title="CNB"
+          />
+          <img
+            src={cnbLogo}
+            className={styles.teamLogo}
+            alt="CNB"
+            title="CNB"
+          />
         </div>
       </div>
       <div className={styles.videoContainer}>
@@ -34,11 +46,7 @@ function Course() {
           className={styles.video}
         />
       </div>
-      <Button
-        backgroundColor="#275DAC"
-        color="white"
-        text="QUERO SUBIR DE ELO"
-      />
+      <Button backgroundColor="#275DAC" color="white" text="QUERO APRENDER" />
     </div>
   );
 }

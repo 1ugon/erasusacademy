@@ -1,0 +1,32 @@
+.containerFeedbacks {
+  background-color: var(--blue);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerFeedbacks .title {
+  color: var(--white);
+}
+
+.containerFeedbacks .containerFeedbacksCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 0 20vw;
+  margin-bottom: 2vh;
+}
+
+.containerFeedbacks .feedImage {
+  padding-top: 25px;
+  transition: 0.5s;
+  height: 20vh;
+}
+
+.containerFeedbacks .feedImage:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
