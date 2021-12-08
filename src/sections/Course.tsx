@@ -46,7 +46,7 @@ function Course() {
           className={styles.video}
         />
       </div>
-      <Button backgroundColor="#275DAC" color="white" text="QUERO APRENDER" />
+      <Button backgroundColor="#0f4c75" color="#efefef" text="QUERO APRENDER" />
     </div>
   );
 }

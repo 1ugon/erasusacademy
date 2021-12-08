@@ -1,7 +1,7 @@
 .containerFeedbacks {
   background-color: var(--blue);
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -24,9 +24,5 @@
   padding-top: 25px;
   transition: 0.5s;
   height: 20vh;
-}
-
-.containerFeedbacks .feedImage:hover {
-  transition: 0.5s;
-  transform: scale(1.2);
+  cursor: pointer;
 }

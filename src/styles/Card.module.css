@@ -11,12 +11,16 @@
 }
 
 .containerBenefitsCard .featImage {
-  height: 15vh;
+  max-height: 15vh;
   padding: 0.5vh;
-  background-color: var(--blue);
+  background-color: var(--black);
 }
 
 .containerBenefitsCard .featText {
   color: var(--black);
-  font-weight: normal;
+  font-weight: bold;
+}
+
+.containerBenefitsCard .hidden {
+  filter: brightness(30%);
 }

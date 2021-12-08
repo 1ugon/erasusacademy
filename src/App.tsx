@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
+/* import Navbar from "./components/Navbar"; */
 
 import Course from "./sections/Course";
 import Benefits from "./sections/Benefits";
@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       <Course />
       <Benefits />

@@ -1,7 +1,7 @@
 .containerAbout {
   background-color: var(--white);
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -26,4 +26,26 @@
 .containerAbout .socialMedia a {
   color: var(--blue);
   margin: 0 10px;
+}
+
+.containerAbout .row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerAbout .containerText {
+  width: 30vw;
+  margin-left: 2vw;
+}
+
+.containerAbout .text {
+  text-align: start;
+}
+
+.containerAbout .headerImg {
+  border-radius: 50%;
+  padding-right: 2vh;
+  height: 25vh;
 }
