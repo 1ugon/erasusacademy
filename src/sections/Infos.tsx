@@ -8,13 +8,13 @@ import feed4 from "../assets/feedbacks/feed4.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import styles from "../styles/Feedbacks.module.css";
+import styles from "../styles/Infos.module.css";
 
-function Feedbacks() {
+function Infos() {
   return (
-    <div className={styles.containerFeedbacks}>
-      <h1 className={styles.title}>FEEDBACKS</h1>
-      <div className={styles.containerFeedbacksCards}>
+    <div className={styles.containerInfos}>
+      <h1 className={styles.title}>O QUE APRENDEREI?</h1>
+      <div className={styles.containerInfosCards}>
         <Carousel
           infiniteLoop
           showIndicators={false}
@@ -43,4 +43,4 @@ function Feedbacks() {
   );
 }
 
-export default Feedbacks;
+export default Infos;

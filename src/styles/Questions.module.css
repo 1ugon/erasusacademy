@@ -1,0 +1,32 @@
+.containerQuestions {
+  background-color: var(--blue);
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerQuestions .title {
+  color: var(--white);
+  margin-bottom: 2vh;
+}
+
+.containerQuestions .containerAccordions {
+  margin: 0 30vw;
+  margin-bottom: 2vh;
+}
+
+.containerQuestions .containerAccordions .accordionPanel {
+  background-color: var(--white);
+  padding: 2vh 2vw;
+  text-align: start;
+}
+
+@media (max-width: 1080px) {
+  .containerQuestions .containerAccordions {
+    margin: 0 2vw;
+    margin-bottom: 2vh;
+    font-size: 70%;
+  }
+}

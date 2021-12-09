@@ -18,3 +18,12 @@
   flex-direction: row;
   margin: 0 20vw;
 }
+
+@media (max-width: 1080px) {
+  .containerBenefits .containerBenefitsCards {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+    font-size: 70%;
+  }
+}

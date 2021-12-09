@@ -16,6 +16,12 @@
 .footerContainer a {
   color: var(--white);
   text-decoration: none;
+  transition: 0.2s;
+}
+
+.footerContainer a:hover {
+  color: var(--blue);
+  transition: 0.2s;
 }
 
 @media (max-width: 1080px) {

@@ -37,8 +37,9 @@ p {
 
 @media (max-width: 1080px) {
   .containerHeader {
-    padding-top: 0;
-    height: 40vh;
+    padding-top: 5vh;
+    height: 30vh;
+    background-position: bottom;
   }
 
   .containerHeader .mainText {

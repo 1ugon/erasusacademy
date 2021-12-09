@@ -19,3 +19,12 @@
   margin: 0 20vw;
   margin-bottom: 2vh;
 }
+
+@media (max-width: 1080px) {
+  .containerFeaturing .containerFeaturingCards {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+    font-size: 70%;
+  }
+}

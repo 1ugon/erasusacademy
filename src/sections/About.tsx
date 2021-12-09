@@ -18,7 +18,7 @@ function About() {
     <div className={styles.containerAbout} id="About">
       <h1 className={styles.title}>SOBRE</h1>
       <div className={styles.row}>
-        <img src={profileImg} className={styles.headerImg} alt="erasus" />
+        <img src={profileImg} className={styles.aboutImg} alt="erasus" />
         <div className={styles.containerText}>
           <p className={styles.text}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh
@@ -32,16 +32,16 @@ function About() {
       </div>
       <div className={styles.socialMedia}>
         <a href="/">
-          <FontAwesomeIcon icon={faYoutube} size="4x" />
+          <FontAwesomeIcon icon={faYoutube} size="2x" />
         </a>
         <a href="/">
-          <FontAwesomeIcon icon={faFacebook} size="4x" />
+          <FontAwesomeIcon icon={faFacebook} size="2x" />
         </a>
         <a href="/">
-          <FontAwesomeIcon icon={faTwitter} size="4x" />
+          <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
         <a href="/">
-          <FontAwesomeIcon icon={faInstagram} size="4x" />
+          <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
       </div>
     </div>
