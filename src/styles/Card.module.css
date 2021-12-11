@@ -1,26 +1,19 @@
-.containerBenefitsCard {
+.containerFeaturingCard {
   padding-top: 25px;
 }
 
-.containerBenefitsCard .title {
-  font-size: 20px;
-}
-
-.containerBenefitsCard .benefitsImage {
-  height: 7.5vh;
-}
-
-.containerBenefitsCard .featImage {
+.containerFeaturingCard .featImage {
   max-height: 15vh;
   padding: 0.5vh;
   background-color: var(--black);
 }
 
-.containerBenefitsCard .featText {
+.containerFeaturingCard .featText {
   color: var(--black);
   font-weight: bold;
+  font-size: 0.8rem;
 }
 
-.containerBenefitsCard .hidden {
+.containerFeaturingCard .hidden {
   filter: brightness(30%);
 }

@@ -9,21 +9,21 @@
 
 .containerBenefits .title {
   color: var(--white);
+  margin-bottom: 2vh;
 }
 
 .containerBenefits .containerBenefitsCards {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  margin: 0 20vw;
+  justify-content: center;
+}
+
+.containerBenefits p {
+  color: var(--white);
 }
 
 @media (max-width: 1080px) {
   .containerBenefits .containerBenefitsCards {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 2rem;
-    font-size: 70%;
+    flex-direction: column;
   }
 }

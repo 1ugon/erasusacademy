@@ -1,9 +1,7 @@
 import React from "react";
 
-import feed1 from "../assets/feedbacks/feed1.png";
-import feed2 from "../assets/feedbacks/feed2.png";
-import feed3 from "../assets/feedbacks/feed3.png";
-import feed4 from "../assets/feedbacks/feed4.png";
+import feed1 from "../assets/feedbacks/feed1.jpeg";
+import feed2 from "../assets/feedbacks/feed2.jpeg";
 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -26,16 +24,6 @@ function Infos() {
           </div>
           <div>
             <img src={feed2} className={styles.feedImage} alt="feedback two" />
-          </div>
-          <div>
-            <img
-              src={feed3}
-              className={styles.feedImage}
-              alt="feedback three"
-            />
-          </div>
-          <div>
-            <img src={feed4} className={styles.feedImage} alt="feedback four" />
           </div>
         </Carousel>
       </div>

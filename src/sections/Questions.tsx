@@ -44,7 +44,7 @@ function Questions() {
         <Accordion allowZeroExpanded>
           {items.map((item) => (
             <AccordionItem key={item.id}>
-              <AccordionItemHeading>
+              <AccordionItemHeading aria-level={2}>
                 <AccordionItemButton>{item.heading}</AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className={styles.accordionPanel}>
