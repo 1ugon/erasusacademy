@@ -1,10 +1,11 @@
 import React from "react";
 
-import feed1 from "../assets/feedbacks/feed1.jpeg";
-import feed2 from "../assets/feedbacks/feed2.jpeg";
+import info1 from "../assets/infos/info1.png";
 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+import Button from "../components/Button";
 
 import styles from "../styles/Infos.module.css";
 
@@ -13,19 +14,19 @@ function Infos() {
     <div className={styles.containerInfos}>
       <h1 className={styles.title}>O QUE APRENDEREI?</h1>
       <div className={styles.containerInfosCards}>
-        <Carousel
-          infiniteLoop
-          showIndicators={false}
-          showThumbs={false}
-          showStatus={false}
-        >
+        <Carousel infiniteLoop showStatus={false}>
           <div>
-            <img src={feed1} className={styles.feedImage} alt="feedback one" />
+            <img src={info1} className={styles.feedImage} alt="feedback one" />
           </div>
           <div>
-            <img src={feed2} className={styles.feedImage} alt="feedback two" />
+            <img src={info1} className={styles.feedImage} alt="feedback two" />
           </div>
         </Carousel>
+        <Button
+          backgroundColor="#0f4c75"
+          color="#efefef"
+          text="QUERO APRENDER"
+        />
       </div>
     </div>
   );

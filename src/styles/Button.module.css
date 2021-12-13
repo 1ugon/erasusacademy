@@ -6,6 +6,7 @@
   font-weight: bold;
   transition: 0.5s;
   cursor: pointer;
+  font-weight: normal;
 }
 
 .button:hover {

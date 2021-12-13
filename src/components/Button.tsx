@@ -10,7 +10,7 @@ interface ButtonProps {
 
 function Button(props: ButtonProps) {
   return (
-    <a href="https://pay.kiwify.com.br/MXD0adC">
+    <a href="https://pay.kiwify.com.br/MXD0adC" className={styles.text}>
       <button
         className={styles.button}
         style={{ backgroundColor: props.backgroundColor, color: props.color }}

@@ -7,8 +7,6 @@ import erasusImg from "../assets/featuring/erasus.png";
 
 import styles from "../styles/Featuring.module.css";
 
-import Button from "../components/Button";
-
 function Featuring() {
   return (
     <div className={styles.containerFeaturing}>
@@ -17,7 +15,6 @@ function Featuring() {
         <FeatCard image={erasusImg} text="Erasus" />
         <FeatCard image={defaultImage} text="Em Breve" soon={true} />
       </div>
-      <Button backgroundColor="#0f4c75" color="#efefef" text="FAÇA PARTE" />
     </div>
   );
 }

@@ -9,6 +9,8 @@ import feed5 from "../assets/feedbacks/feed5.jpeg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import Button from "../components/Button";
+
 import styles from "../styles/Feedbacks.module.css";
 
 function Feedbacks() {
@@ -30,6 +32,7 @@ function Feedbacks() {
           <img src={feed5} className={styles.feedImage} alt="feedback 5" />
         </Carousel>
       </div>
+      <Button backgroundColor="#0f4c75" color="#efefef" text="FAÇA PARTE" />
     </div>
   );
 }

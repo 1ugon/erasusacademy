@@ -9,6 +9,7 @@
 
 .containerCourse .text {
   color: black;
+  font-size: 24px;
 }
 
 .containerCourse .experience {
@@ -30,7 +31,7 @@
 
 .containerCourse .video {
   width: 45vw;
-  height: 45vh;
+  height: 41vh;
   margin-bottom: 2vh;
 }
 
@@ -46,6 +47,10 @@
 }
 
 @media (max-width: 1080px) {
+  .containerCourse .text {
+    margin: 0 2vw;
+  }
+
   .containerCourse .row {
     display: grid;
     grid-template-columns: repeat(2, auto);

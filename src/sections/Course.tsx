@@ -1,6 +1,11 @@
 import React from "react";
 
 import cnbLogo from "../assets/teams/cnb.png";
+import santosLogo from "../assets/teams/santos.png";
+import redLogo from "../assets/teams/red.png";
+import opkLogo from "../assets/teams/opk.png";
+import rensgaLogo from "../assets/teams/rensga.png";
+
 import Button from "../components/Button";
 
 import styles from "../styles/Course.module.css";
@@ -8,12 +13,11 @@ import styles from "../styles/Course.module.css";
 function Course() {
   return (
     <div className={styles.containerCourse} id="Course">
-      <p className={styles.text}>
-        Entenda como o jogador Erasus foi high elo tão cedo e o que aprendeu ao
-        longo do tempo
-      </p>
+      <h2 className={styles.text}>
+        ENTENDA O QUE O JOGADOR ERASUS APRENDEU AO LONGO DESSES ANOS
+      </h2>
       <div className={styles.experience}>
-        <h3 className={styles.text}>Experiência</h3>
+        <p className={styles.text}>Experiência</p>
         <div className={styles.row}>
           <img
             src={cnbLogo}
@@ -22,13 +26,25 @@ function Course() {
             title="CNB"
           />
           <img
-            src={cnbLogo}
+            src={santosLogo}
             className={styles.teamLogo}
             alt="CNB"
             title="CNB"
           />
           <img
-            src={cnbLogo}
+            src={redLogo}
+            className={styles.teamLogo}
+            alt="CNB"
+            title="CNB"
+          />
+          <img
+            src={opkLogo}
+            className={styles.teamLogo}
+            alt="CNB"
+            title="CNB"
+          />
+          <img
+            src={rensgaLogo}
             className={styles.teamLogo}
             alt="CNB"
             title="CNB"
@@ -37,7 +53,7 @@ function Course() {
       </div>
       <div className={styles.videoContainer}>
         <p className={styles.text}>
-          Experimente um pouco do que pode ser visto ao decorrer do curso 👇🏼
+          UM POUCO DO QUE PODE SER VISTO AO DECORRER DO CURSO 👇🏼
         </p>
         <iframe
           src="https://www.youtube.com/embed/k-7CI5E1fdE"
@@ -46,7 +62,7 @@ function Course() {
           className={styles.video}
         />
       </div>
-      <Button backgroundColor="#0f4c75" color="#efefef" text="QUERO APRENDER" />
+      <Button backgroundColor="#0f4c75" color="#efefef" text="COMPRAR" />
     </div>
   );
 }
