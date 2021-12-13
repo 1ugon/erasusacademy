@@ -17,7 +17,7 @@ function Course() {
         ENTENDA O QUE O JOGADOR ERASUS APRENDEU AO LONGO DESSES ANOS
       </h2>
       <div className={styles.experience}>
-        <p className={styles.text}>Experiência</p>
+        <p>Experiência</p>
         <div className={styles.row}>
           <img
             src={cnbLogo}

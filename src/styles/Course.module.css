@@ -9,7 +9,7 @@
 
 .containerCourse .text {
   color: black;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .containerCourse .experience {
@@ -18,7 +18,8 @@
 }
 
 .containerCourse p {
-  font-size: 2vh;
+  font-size: 1.5rem;
+  color: black;
 }
 
 .containerCourse .videoContainer {

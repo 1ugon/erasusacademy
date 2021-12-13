@@ -24,44 +24,15 @@ p {
 }
 
 .containerHeader h1 {
-  font-size: 6vh;
+  font-size: 4.5rem;
 }
 
 .containerHeader h3 {
-  font-size: 2.5vh;
-  padding-top: 1.5vh;
-}
-
-.containerHeader h5 {
-  font-size: 1.5vh;
+  font-size: 1rem;
 }
 
 @media (max-width: 1080px) {
   .containerHeader {
-    height: 30vh;
     background-position: center;
-  }
-
-  .containerHeader .mainText {
-    flex-direction: column;
-  }
-
-  .containerHeader .header {
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .containerHeader .headerImg {
-    padding-top: 2vh;
-    padding-right: 0;
-    height: 25vh;
-  }
-
-  .containerHeader .text {
-    padding-left: 0;
-  }
-
-  .containerHeader .bush {
-    display: none;
   }
 }
