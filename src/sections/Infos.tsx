@@ -12,7 +12,7 @@ import styles from "../styles/Infos.module.css";
 function Infos() {
   return (
     <div className={styles.containerInfos}>
-      <h1 className={styles.title}>O QUE APRENDEREI?</h1>
+      <h1 className={styles.title}>O QUE VOU APRENDER?</h1>
       <div className={styles.containerInfosCards}>
         <Carousel infiniteLoop showStatus={false}>
           <div>
