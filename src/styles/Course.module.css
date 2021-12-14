@@ -1,20 +1,28 @@
 .containerCourse {
   background-color: var(--white);
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  padding: 3vh 0;
   text-align: center;
   justify-content: center;
   align-items: center;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0px 11px 8px -10px black, inset 0px -11px 8px -10px black;
 }
 
 .containerCourse .text {
   color: black;
+  padding: 0 10vw;
   font-size: 1.5rem;
 }
 
 .containerCourse .experience {
   padding-top: 2vh;
   padding-bottom: 2vh;
+}
+
+.containerCourse .experience img {
+  height: 10vh;
 }
 
 .containerCourse p {
@@ -48,6 +56,10 @@
 }
 
 @media (max-width: 1080px) {
+  .containerCourse {
+    background-image: none;
+  }
+
   .containerCourse .text {
     margin: 0 2vw;
   }
@@ -55,11 +67,11 @@
   .containerCourse .row {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .containerCourse .video {
-    width: 90vw;
+    width: 80vw;
     height: 30vh;
   }
 }

@@ -7,6 +7,10 @@
   align-items: center;
   padding-left: 20vw;
   padding-right: 20vw;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0px 11px 8px -10px black, inset 0px -11px 8px -10px black;
 }
 
 .containerAbout .title,
@@ -66,6 +70,7 @@
     width: 80vw;
     margin-left: 0;
     margin-top: 2vh;
+    padding: 0 10vw;
   }
 
   .containerAbout .aboutImg {

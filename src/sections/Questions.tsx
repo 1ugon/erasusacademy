@@ -22,13 +22,13 @@ const items = [
     id: 2,
     heading: "Por quanto tempo terei acesso ao curso?",
     content:
-      "O acesso dura por 365 dias corridos (1 ano), sendo necessário ser renovado após esse período.",
+      "Você terá acesso vitalício ao curso, ou seja, depois de comprado ficará pra sempre na sua conta do Kiwify!",
   },
   {
     id: 3,
     heading: "O que acontece se eu não gostar do curso?",
     content:
-      "Você terá uma garantia de 7 dias corridos (1 semana) para pedir o reembolso caso não goste do curso!",
+      "Você terá uma garantia de 7 dias corridos (1 semana) para pedir reembolso caso não goste do curso!",
   },
   {
     id: 4,
