@@ -1,12 +1,12 @@
 import React from "react";
 
-import info1 from "../assets/infos/info1.jpg";
-import info2 from "../assets/infos/info2.jpg";
-import info3 from "../assets/infos/info3.jpg";
-import info4 from "../assets/infos/info4.jpg";
-import info5 from "../assets/infos/info5.jpg";
-import info6 from "../assets/infos/info6.jpg";
-import info7 from "../assets/infos/info7.jpg";
+import info1 from "../assets/infos/info1.png";
+import info2 from "../assets/infos/info2.png";
+import info3 from "../assets/infos/info3.png";
+import info4 from "../assets/infos/info4.png";
+import info5 from "../assets/infos/info5.png";
+import info6 from "../assets/infos/info6.png";
+import info7 from "../assets/infos/info7.png";
 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
