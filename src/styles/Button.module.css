@@ -2,15 +2,20 @@
   height: 60px;
   width: 330px;
   border-radius: 100px;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.7rem;
   transition: 0.5s;
   cursor: pointer;
   font-weight: normal;
+  border-style: solid;
+  border-width: 2.5px;
+  background-color: #0f4c75;
+  color: #efefef;
+  box-shadow: 0px 0px 7px black;
 }
 
 .button:hover {
-  transition: 0.5s;
-  opacity: 0.85;
+  transition: 1s;
+  background-color: #1b262c;
+  color: #72cc50;
   transform: scale(1.1);
 }

@@ -32,7 +32,7 @@ function Feedbacks() {
           <img src={feed5} className={styles.feedImage} alt="feedback 5" />
         </Carousel>
       </div>
-      <Button backgroundColor="#0f4c75" color="#efefef" text="FAÇA PARTE" />
+      <Button text="FAÇA PARTE" />
     </div>
   );
 }

@@ -62,7 +62,7 @@ function Course() {
           className={styles.video}
         />
       </div>
-      <Button backgroundColor="#0f4c75" color="#efefef" text="COMPRAR" />
+      <Button text="COMPRAR" />
     </div>
   );
 }

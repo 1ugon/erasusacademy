@@ -22,11 +22,7 @@ function Infos() {
             <img src={info1} className={styles.feedImage} alt="feedback two" />
           </div>
         </Carousel>
-        <Button
-          backgroundColor="#0f4c75"
-          color="#efefef"
-          text="QUERO APRENDER"
-        />
+        <Button text="QUERO APRENDER" />
       </div>
     </div>
   );
