@@ -30,6 +30,8 @@ function Benefits() {
             title="Comunidade do Discord"
             text="Discord para interagir com a comunidade, trocar conhecimentos,
           arranjar amigos para jogar e mais!"
+            isLink={true}
+            link="https://discord.gg/XSVCvUWj"
           />
           <AccordionBenefits
             icon={faTelegram}
