@@ -7,11 +7,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import Button from "../components/Button";
 
-import styles from "../styles/Infos.module.css";
+import styles from "../styles/White.module.css";
 
 function Infos() {
   return (
-    <div className={styles.containerInfos}>
+    <div className={styles.containerWhite}>
       <h1 className={styles.title}>O QUE VOU APRENDER?</h1>
       <div className={styles.containerInfosCards}>
         <Carousel infiniteLoop showStatus={false}>

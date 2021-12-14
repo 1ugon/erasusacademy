@@ -8,14 +8,14 @@ import { faDiscord, faTelegram } from "@fortawesome/free-brands-svg-icons";
 
 import { faChartLine, faChess } from "@fortawesome/free-solid-svg-icons";
 
-import styles from "../styles/Benefits.module.css";
+import styles from "../styles/Blue.module.css";
 import { AccordionBenefits } from "../components/Accordion";
 
 function Benefits() {
   const { width } = useWindowSize();
 
   return (
-    <div className={styles.containerBenefits} id="Comunity">
+    <div className={styles.containerBlue} id="Comunity">
       <h1 className={styles.title}>BENEFÍCIOS</h1>
       <div className={styles.containerBenefitsCards}>
         <Accordion

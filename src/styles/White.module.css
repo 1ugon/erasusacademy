@@ -1,0 +1,173 @@
+.containerWhite {
+  background-color: var(--white);
+  padding: 3vh 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0px 11px 8px -10px black, inset 0px -11px 8px -10px black;
+}
+
+.containerWhite .text {
+  color: black;
+  padding: 0 10vw;
+  font-size: 1.5rem;
+}
+
+.containerWhite .experience {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.containerWhite .experience img {
+  height: 10vh;
+}
+
+.containerWhite p {
+  color: black;
+}
+
+.containerWhite .videoContainer {
+  margin-top: 3vh;
+}
+
+.containerWhite .videoContainer .text {
+  margin-bottom: 2vh;
+}
+
+.containerWhite .video {
+  width: 45vw;
+  height: 41vh;
+  margin-bottom: 2vh;
+}
+
+.containerWhite .row {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 0 20vw;
+}
+
+.containerWhite .teamLogo {
+  height: 15vh;
+}
+
+.containerWhite .title {
+  color: var(--black);
+  margin-bottom: 2vh;
+}
+
+.containerWhite .containerInfosCards {
+  margin: 0 30vw;
+  margin-bottom: 2vh;
+}
+
+.containerWhite .feedImage {
+  max-height: 50vh;
+}
+
+.containerWhite .containerFeedbacksCards {
+  margin: 0 30vw;
+  margin-bottom: 2vh;
+}
+
+.containerWhite .socialMedia {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2vh;
+  padding: 25px 50px;
+}
+
+.containerWhite .socialMedia a {
+  color: var(--blue);
+  margin: 0 10px;
+  transition: 0.2s;
+}
+
+.containerWhite .socialMedia a:hover {
+  color: var(--black);
+  transition: 0.2s;
+}
+
+.containerWhite .rowSocials {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerWhite .containerText {
+  width: 30vw;
+  margin-left: 2vw;
+}
+
+.containerWhite .aboutText {
+  text-align: start;
+  font-size: 1.2rem;
+}
+
+.containerWhite .aboutImg {
+  border-radius: 50%;
+  padding-right: 2vh;
+  height: 25vh;
+}
+
+@media (max-width: 1080px) {
+  .containerWhite {
+    background-image: none;
+  }
+
+  .containerWhite .text {
+    margin: 0 2vw;
+  }
+
+  .containerWhite .row {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+  }
+
+  .containerWhite .video {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .containerWhite {
+    background-image: none;
+  }
+
+  .containerWhite .containerInfosCards {
+    margin: 0 5vw;
+  }
+
+  .containerWhite .containerFeedbacksCards {
+    margin: 0 5vw;
+    margin-bottom: 2vh;
+  }
+
+  .containerWhite .rowSocials {
+    flex-direction: column;
+    font-size: 70%;
+  }
+
+  .containerWhite .containerText {
+    width: 80vw;
+    margin-left: 0;
+    margin-top: 2vh;
+    padding: 0 10vw;
+  }
+
+  .containerWhite .aboutImg {
+    align-self: center;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .containerWhite .aboutText {
+    text-align: center;
+  }
+}

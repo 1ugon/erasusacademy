@@ -11,16 +11,16 @@ import {
 
 import profileImg from "../assets/profile.png";
 
-import styles from "../styles/About.module.css";
+import styles from "../styles/White.module.css";
 
 function About() {
   return (
-    <div className={styles.containerAbout} id="About">
+    <div className={styles.containerWhite} id="About">
       <h1 className={styles.title}>SOBRE</h1>
-      <div className={styles.row}>
+      <div className={styles.rowSocials}>
         <img src={profileImg} className={styles.aboutImg} alt="erasus" />
         <div className={styles.containerText}>
-          <p className={styles.text}>
+          <p className={styles.aboutText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh
             diam, pellentesque vitae varius in, suscipit a enim. Aenean lacinia
             sit amet augue id venenatis. Praesent libero velit, ullamcorper et

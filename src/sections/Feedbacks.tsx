@@ -11,11 +11,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import Button from "../components/Button";
 
-import styles from "../styles/Feedbacks.module.css";
+import styles from "../styles/White.module.css";
 
 function Feedbacks() {
   return (
-    <div className={styles.containerFeedbacks}>
+    <div className={styles.containerWhite}>
       <h1 className={styles.title}>FEEDBACKS</h1>
       <div className={styles.containerFeedbacksCards}>
         <Carousel

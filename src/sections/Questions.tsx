@@ -9,7 +9,7 @@ import {
 } from "react-accessible-accordion";
 
 import "react-accessible-accordion/dist/fancy-example.css";
-import styles from "../styles/Questions.module.css";
+import styles from "../styles/Blue.module.css";
 
 const items = [
   {
@@ -46,9 +46,9 @@ const items = [
 
 function Questions() {
   return (
-    <div className={styles.containerQuestions}>
+    <div className={styles.containerBlue}>
       <h1 className={styles.title}>PERGUNTAS FREQUENTES</h1>
-      <div className={styles.containerAccordions}>
+      <div className={styles.containerQuestionCards}>
         <Accordion allowZeroExpanded allowMultipleExpanded>
           {items.map((item) => (
             <AccordionItem key={item.id}>

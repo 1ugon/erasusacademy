@@ -5,11 +5,11 @@ import { FeatCard } from "../components/Card";
 import defaultImage from "../assets/featuring/default.png";
 import shimaImg from "../assets/featuring/shima.jpeg";
 
-import styles from "../styles/Featuring.module.css";
+import styles from "../styles/Blue.module.css";
 
 function Featuring() {
   return (
-    <div className={styles.containerFeaturing}>
+    <div className={styles.containerBlue}>
       <h1 className={styles.title}>PARTICIPAÇÃO</h1>
       <div className={styles.containerFeaturingCards}>
         <FeatCard image={shimaImg} text="Shimadah" />

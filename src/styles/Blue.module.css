@@ -1,0 +1,63 @@
+.containerBlue {
+  background-color: var(--blue);
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerBlue .title {
+  color: var(--white);
+  margin-bottom: 2vh;
+}
+
+.containerBlue .containerBenefitsCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 120%;
+}
+
+.containerBlue p {
+  color: var(--white);
+}
+
+.containerBlue .containerFeaturingCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 0 20vw;
+  margin-bottom: 2vh;
+}
+
+.containerBlue .containerQuestionCards {
+  margin: 0 30vw;
+  margin-bottom: 2vh;
+  font-size: 120%;
+}
+
+.containerBlue .containerQuestionCards .accordionPanel {
+  background-color: var(--white);
+  padding: 2vh 2vw;
+  text-align: start;
+}
+
+@media (max-width: 1080px) {
+  .containerBlue .containerBenefitsCards {
+    flex-direction: column;
+  }
+
+  .containerBlue .containerFeaturingCards {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+    font-size: 70%;
+  }
+
+  .containerBlue .containerQuestionCards {
+    margin: 0 2vw;
+    margin-bottom: 2vh;
+  }
+}

@@ -8,11 +8,11 @@ import rensgaLogo from "../assets/teams/rensga.png";
 
 import Button from "../components/Button";
 
-import styles from "../styles/Course.module.css";
+import styles from "../styles/White.module.css";
 
 function Course() {
   return (
-    <div className={styles.containerCourse} id="Course">
+    <div className={styles.containerWhite} id="Course">
       <h2 className={styles.text}>
         ENTENDA O QUE O JOGADOR ERASUS APRENDEU AO LONGO DESSES ANOS
       </h2>
