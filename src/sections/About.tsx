@@ -3,10 +3,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faYoutube,
-  faFacebook,
   faTwitter,
   faInstagram,
+  faTwitch,
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 
 import profileImg from "../assets/profile.png";
@@ -31,17 +31,17 @@ function About() {
         </div>
       </div>
       <div className={styles.socialMedia}>
-        <a href="/">
-          <FontAwesomeIcon icon={faYoutube} size="2x" />
+        <a href="https://discord.gg/XSVCvUWj">
+          <FontAwesomeIcon icon={faDiscord} size="2x" />
         </a>
-        <a href="/">
-          <FontAwesomeIcon icon={faFacebook} size="2x" />
-        </a>
-        <a href="/">
+        <a href="https://twitter.com/erasusplay">
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
-        <a href="/">
+        <a href="https://www.instagram.com/erasusplay/">
           <FontAwesomeIcon icon={faInstagram} size="2x" />
+        </a>
+        <a href="https://www.twitch.tv/erasusplay">
+          <FontAwesomeIcon icon={faTwitch} size="2x" />
         </a>
       </div>
     </div>
