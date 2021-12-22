@@ -31,7 +31,7 @@ function About() {
         </div>
       </div>
       <div className={styles.socialMedia}>
-        <a href="https://discord.gg/XSVCvUWj">
+        <a href="https://discord.gg/EGWez7GYJG">
           <FontAwesomeIcon icon={faDiscord} size="2x" />
         </a>
         <a href="https://twitter.com/erasusplay">
