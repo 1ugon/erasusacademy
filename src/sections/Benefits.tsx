@@ -29,7 +29,7 @@ function Benefits() {
             icon={faDiscord}
             title="Comunidade do Discord"
             text="Discord para interagir com a comunidade, trocar conhecimentos,
-          arranjar amigos para jogar e mais!"
+          arranjar amigos para jogar e mais! (clique no ícone)"
             isLink={true}
             link="https://discord.gg/XSVCvUWj"
           />
