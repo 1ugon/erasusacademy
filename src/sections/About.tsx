@@ -21,12 +21,14 @@ function About() {
         <img src={profileImg} className={styles.aboutImg} alt="erasus" />
         <div className={styles.containerText}>
           <p className={styles.aboutText}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh
-            diam, pellentesque vitae varius in, suscipit a enim. Aenean lacinia
-            sit amet augue id venenatis. Praesent libero velit, ullamcorper et
-            metus in, pretium finibus justo. Aliquam nec dictum velit, et
-            blandit metus. Vestibulum ante ipsum primis in faucibus orci luctus
-            et ultrices posuere cubilia curae.
+            Erasus alcançou o elo desafiante pela primeira vez aos 13 anos,
+            recebendo destaque e ficando conhecido pela sua mecânica,
+            principalmente com o campeão Lee Sin, rapidamente se tornou um jovem
+            talento do cenário nacional. Após sua entrada para o cenário
+            competitivo ganhou experiências em outras organizações, então
+            decidiu trazer um conteúdo para aqueles que desejam um conhecimento
+            mais aprofundado sobre a selva e sobre os campeões que tem mais
+            afinidade, juntamente com os demais convidados.
           </p>
         </div>
       </div>
