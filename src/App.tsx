@@ -11,6 +11,11 @@ import Questions from "./sections/Questions";
 import About from "./sections/About";
 import Footer from "./components/Footer";
 
+import ReactPixel from "react-facebook-pixel";
+
+ReactPixel.init("350341889879476");
+ReactPixel.pageView();
+
 function App() {
   return (
     <>
