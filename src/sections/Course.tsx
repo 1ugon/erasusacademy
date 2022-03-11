@@ -28,26 +28,26 @@ function Course() {
           <img
             src={santosLogo}
             className={styles.teamLogo}
-            alt="CNB"
-            title="CNB"
+            alt="Santos"
+            title="Santos"
           />
           <img
             src={redLogo}
             className={styles.teamLogo}
-            alt="CNB"
-            title="CNB"
+            alt="Red"
+            title="Red"
           />
           <img
             src={opkLogo}
             className={styles.teamLogo}
-            alt="CNB"
-            title="CNB"
+            alt="OPK"
+            title="OPK"
           />
           <img
             src={rensgaLogo}
             className={styles.teamLogo}
-            alt="CNB"
-            title="CNB"
+            alt="RENSGA"
+            title="RENSGA"
           />
         </div>
       </div>
