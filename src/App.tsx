@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 import ReactPixel from "react-facebook-pixel";
 
-ReactPixel.init("350341889879476");
+ReactPixel.init("224209989908505");
 ReactPixel.pageView();
 
 function App() {

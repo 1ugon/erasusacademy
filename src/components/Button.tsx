@@ -4,7 +4,7 @@ import ReactPixel from "react-facebook-pixel";
 
 import styles from "../styles/Button.module.css";
 
-ReactPixel.init("350341889879476");
+ReactPixel.init("224209989908505");
 
 interface ButtonProps {
   text: string;
