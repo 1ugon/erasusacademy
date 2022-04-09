@@ -6,7 +6,6 @@ import info3 from "../assets/infos/info3.png";
 import info4 from "../assets/infos/info4.png";
 import info5 from "../assets/infos/info5.png";
 import info6 from "../assets/infos/info6.png";
-import info7 from "../assets/infos/info7.png";
 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -36,7 +35,6 @@ function Infos() {
           <img src={info4} className={styles.feedImage} alt="info 4" />
           <img src={info5} className={styles.feedImage} alt="info 5" />
           <img src={info6} className={styles.feedImage} alt="info 6" />
-          <img src={info7} className={styles.feedImage} alt="info 7" />
         </Carousel>
       </div>
       <Button text="QUERO APRENDER" />
